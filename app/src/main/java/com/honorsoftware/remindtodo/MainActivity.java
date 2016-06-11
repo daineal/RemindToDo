@@ -13,6 +13,8 @@ import android.view.MenuItem;
 import com.honorsoftware.remindtodo.adapter.TabsPagerFragmentAdapter;
 import com.qoobico.remindme.R;
 
+
+
 public class MainActivity extends AppCompatActivity {
 
     private static final int LAYOUT = R.layout.activity_main;
