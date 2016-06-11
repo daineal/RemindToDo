@@ -6,12 +6,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
+import com.qoobico.remindme.R;
+
 public class MainActivity extends AppCompatActivity {
 
     private static final int LAYOUT = R.layout.activity_main;
 
     private Toolbar toolbar;
-
     private DrawerLayout drawerLayout;
 
     @Override
@@ -21,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(LAYOUT);
 
         initToolbar();
-        initNavigationView();
+
     }
 
     private void initToolbar() {
@@ -40,4 +41,5 @@ public class MainActivity extends AppCompatActivity {
     private void initNavigationView() {
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
     }
+
 }
